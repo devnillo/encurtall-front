@@ -11,7 +11,10 @@
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
     .card{
-        @apply  flex flex-col items-center gap-4 bg-slate-50 rounded-xl border border-slate-100  py-4 ;
+        @apply  flex flex-col items-center gap-3 py-6 bg-slate-50 rounded-xl border border-primary ;
+    }
+    .btnSection{
+        @apply flex gap-1;
     }
     a{
         @apply cursor-pointer

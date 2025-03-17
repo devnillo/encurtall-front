@@ -14,7 +14,7 @@ function Home() {
                         <div className="cards">
                             <div className="card">
                                 <a href="" className="text-blue-700 underline text-[150%]">encrtall.com/uri</a>
-                                <div className="btnSection flex gap-1">
+                                <div className="btnSection">
                                     <a href="" className="cardBtn bg-gray-500">
                                         <button>Editar</button>
                                     </a>
