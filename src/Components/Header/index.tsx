@@ -1,5 +1,5 @@
 import '../../styles/variaveis.css'
-
+import './styles.css'
 export default function Header(){
     return (
         <header className="bg-primary flex items-center h-20 px-5 text-white font-medium">
@@ -7,9 +7,6 @@ export default function Header(){
                 <span className='text-xl font-semibold'>EncurtALL</span>
                 <div className="nav">
                     <ul className='flex gap-4'>
-                        <li>
-                            <a href="">Perfil</a>
-                        </li>
                         <li>
                             <a href="" className='font-semibold'>Perfil</a>
                         </li>

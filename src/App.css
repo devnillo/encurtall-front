@@ -1,0 +1,25 @@
+@reference "./styles/variaveis"
+@reference "tailwindcss";
+
+
+@layer components{
+    .cardBtn{
+        @apply text-white p-2;
+    }
+    .cards{
+        @apply grid gap-4;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .card{
+        @apply  flex flex-col items-center gap-4 bg-slate-50 rounded-xl border border-slate-100  py-4 ;
+    }
+    a{
+        @apply cursor-pointer
+    }
+    button{
+        @apply cursor-pointer
+    }
+    h3{
+        @apply my-2 text-2xl font-bold
+    }
+}

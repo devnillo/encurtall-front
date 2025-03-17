@@ -1,0 +1,9 @@
+@reference "tailwindcss";
+
+@layer components {
+        .tt{
+          @apply text-4xl;
+        }
+    
+  
+  }
